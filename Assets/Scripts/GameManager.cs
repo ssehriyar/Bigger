@@ -107,7 +107,7 @@ public class GameManager : Singleton<GameManager>
         GameObjectPieceNumber = o.goNumber;
 
         /* This part for level output format */
-        /* It writes the values in Resources/demoPath */
+        /* It writes the values in project folder and Resources/demoPath */
 
         string json = UnityEngine.JsonUtility.ToJson(o);
 
