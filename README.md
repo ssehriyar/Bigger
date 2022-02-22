@@ -2,8 +2,10 @@
 
 The game has 3 base attributes:
 
-1-BoardSize is my board size also my level of difficulty. 
+1-BoardSize is my board size also my level of difficulty.
+
 2-GameObjectPieceNumber is the piece number. It is selected randomly from a certain range according to the level of difficulty.
+
 3-Seed is the base of randomness. In procedural generation and other game parts using random values. To be able to generate and keep my level information there are LevelArgs and RandomUtil classes.
 
 GameManager starts the game with BoardSize and GameObjectPieceNumber. Firstly the game board is created. Then Procedural class starts.
