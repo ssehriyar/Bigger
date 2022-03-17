@@ -1,6 +1,6 @@
 # Endless Tangram Game	Unity ver 2020.3.28f1
 
-Endless tangram game. Level generations are random also can call it procedural.
+Endless tangram game. Levels are procedurally generated.
 Board size can be 4-5-6.
 Piece number minimum 5 and maximum 11.
 
