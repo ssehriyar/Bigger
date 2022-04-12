@@ -29,21 +29,7 @@ public class DotController : MonoBehaviour
         {
             if (hitCollider.GetComponent<MeshDrag>() != null)
             {
-                switch (int.Parse(hitCollider.name))
-                {
-                    case 0:
-                        controlList[0] = true;
-                        break;
-                    case 1:
-                        controlList[1] = true;
-                        break;
-                    case 2:
-                        controlList[2] = true;
-                        break;
-                    case 3:
-                        controlList[3] = true;
-                        break;
-                }
+                controlList[int.Parse(hitCollider.name)] = true;
             }
         }
         var falsePosInArray = Array.IndexOf(controlList, false);
