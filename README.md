@@ -1,4 +1,4 @@
-# Endless Tangram Game	Unity ver 2020.3.28f1
+# Endless Tangram Game Prototype	Unity ver 2020.3.28f1
 
 Endless tangram game. Levels are procedurally generated.
 Board size can be 4-5-6.
